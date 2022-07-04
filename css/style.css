@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root {
+    --blue: #8acecd;
+    --pink: #f76d8d;
+    --light_pink:#dbcdd0;
+  }
+.name{
+    color: var(--blue);
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 0px 1px var(--pink), 
+	1px 0px var(--light_pink), 
+	-1px 2px var(--pink), 
+	-2px 1px var(--light_pink), 
+	-2px 3px var(--pink), 
+	-3px 2px var(--light_pink);
+}
+p,h3,h1,a{
+    font-family: 'Courier Prime', monospace;
+}
+.contact a{
+    text-decoration: none;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: var(--pink) !important;;
+}
+.cl-effect-2 a {
+	line-height: 44px;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	perspective: 1000px;
+}
+img{
+    max-width: 500px;
+    height: auto;
+}
+.bg-custom{
+    background-color: #eaf6f6!important;
+}
+.header-text-center{
+    text-align: center;
+}
+.header-buttons a{
+display: block;
+}
+.color-blue{
+   background-color: var(--blue)!important; 
+}
+.color-pink{
+    background-color: var(--pink)!important;
+}
+.text-color-blue{
+    color:var(--blue);
+}
+.text-color-pink{
+    color: var(--pink) !important;;
+}
+.custom-font-brand{
+    font-family: 'Permanent Marker', cursive;
+}
+.border-top-pink{
+    border-top:2px solid var(--pink)!important;
+}
+.border-top-blue{
+    border-top: 2px solid var(--blue);
+}
+.full-heigth{
+    height: 100vh;
+}
+.buffer{
+    height: 70px;
+}
+.nav-item a:hover{
+    color: var(--pink) !important;
+}
